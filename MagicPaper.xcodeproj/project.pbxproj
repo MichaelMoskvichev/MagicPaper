@@ -13,6 +13,8 @@
 		7437F30925D6F64D009B94B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7437F30725D6F64D009B94B4 /* Main.storyboard */; };
 		7437F30B25D6F64E009B94B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7437F30A25D6F64E009B94B4 /* Assets.xcassets */; };
 		7437F30E25D6F64E009B94B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7437F30C25D6F64E009B94B4 /* LaunchScreen.storyboard */; };
+		7437F31825D6FBFF009B94B4 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7437F31725D6FBFF009B94B4 /* harrypotter.mp4 */; };
+		74D8D13826F35133009B1CDA /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74D8D13726F35133009B1CDA /* paper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7437F30A25D6F64E009B94B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7437F30D25D6F64E009B94B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7437F30F25D6F64E009B94B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7437F31725D6FBFF009B94B4 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
+		74D8D13726F35133009B1CDA /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		7437F2F525D6F64D009B94B4 = {
 			isa = PBXGroup;
 			children = (
+				74D8D13426F350E7009B1CDA /* Paper */,
 				7437F30025D6F64D009B94B4 /* MagicPaper */,
 				7437F2FF25D6F64D009B94B4 /* Products */,
 			);
@@ -56,15 +61,24 @@
 		7437F30025D6F64D009B94B4 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				7437F31725D6FBFF009B94B4 /* harrypotter.mp4 */,
 				7437F30125D6F64D009B94B4 /* AppDelegate.swift */,
-				7437F30325D6F64D009B94B4 /* art.scnassets */,
 				7437F30525D6F64D009B94B4 /* ViewController.swift */,
 				7437F30725D6F64D009B94B4 /* Main.storyboard */,
 				7437F30A25D6F64E009B94B4 /* Assets.xcassets */,
+				7437F30325D6F64D009B94B4 /* art.scnassets */,
 				7437F30C25D6F64E009B94B4 /* LaunchScreen.storyboard */,
 				7437F30F25D6F64E009B94B4 /* Info.plist */,
 			);
 			path = MagicPaper;
+			sourceTree = "<group>";
+		};
+		74D8D13426F350E7009B1CDA /* Paper */ = {
+			isa = PBXGroup;
+			children = (
+				74D8D13726F35133009B1CDA /* paper.jpg */,
+			);
+			name = Paper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7437F30425D6F64D009B94B4 /* art.scnassets in Resources */,
+				74D8D13826F35133009B1CDA /* paper.jpg in Resources */,
 				7437F30E25D6F64E009B94B4 /* LaunchScreen.storyboard in Resources */,
+				7437F31825D6FBFF009B94B4 /* harrypotter.mp4 in Resources */,
 				7437F30B25D6F64E009B94B4 /* Assets.xcassets in Resources */,
 				7437F30925D6F64D009B94B4 /* Main.storyboard in Resources */,
 			);
